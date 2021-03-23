@@ -1,0 +1,88 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Standard imports
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage[round,sort]{natbib}
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+\usepackage{xspace}
+\usepackage[pdftex]{graphicx}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{amssymb}
+\usepackage{pbox}
+\usepackage{booktabs}
+\usepackage{sidecap}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{\baselineskip}
+
+\renewcommand\refname{\vskip -\baselineskip}
+
+% FILL IN THESE SECTIONS
+\newcommand{\whofor}{Sizhuo Li}
+\newcommand{\whoforshort}{Sizhuo}
+\newcommand{\whoforinstitute}{University of Waterloo}
+\newcommand{\whichclass}{CS 365 (Models of Computation)}
+\newcommand{\whenclass}{Fall 2018}
+\newcommand{\genderHeShe}{he}
+\newcommand{\genderHimHer}{him}
+
+
+% Modify this example. One sentence on what the project was concerned with, one sentence on what techniques were used.
+\newcommand{\project}{(EXAMPLE) rating prediction using a large dataset collected from \emph{Google Local}. This project involved a variety of machine learning techniques, including latent-factor models, regression, and basic NLP techniques.}
+
+%opening
+\title{Recommendation Letter for \whofor{}}
+\author{Julian McAuley}
+
+\newcommand{\xhdr}[1]{\vspace{0mm}\noindent{{\bf #1}}}
+\newcommand{\xhdre}[1]{\vspace{0mm}\noindent{{\it #1}}}
+
+\newcommand{\todo}[1]{\textcolor{red}{\bf  TODO: #1}}
+
+\begin{document}
+
+
+\section*{Recommendation Letter for \whofor{}}
+\noindent\textbf{Julian McAuley}\\
+\today
+
+I am happy to write in support of \whofor{} for admission to your department's graduate program.
+
+\whoforshort{} was a student in my class, CS 365 (Models of Computation), in Winter 2020, in which he received a grade of 94\%. This puts him in around the top (?) of the class.
+% If currently taking the class, use the following:
+%\whoforshort{} is currently a student in my class, \whichclass{}. While grading is not yet completed, \genderHeShe{} is on track to receive a grade of \grade{}.
+
+My class covers the (?basics of machine learning, including regression, classification, and dimensionality reduction). It also covers (?applications such as natural language processing, social network mining, and recommender systems). The class has a (?significant project component, in which students develop practical recommender systems on real-world datasets).
+
+%PROJECT - No project for CS365
+(? \emph{no project for CS365} \whoforshort{}'s project was concerned with \project{})
+
+%SUMMARIZE
+Based on \whoforshort{}'s performance in my class, I can confidently say that \genderHeShe{} has mastered the fundamental concepts covered in this class, and I believe \genderHeShe{} is ready for graduate study.
+
+Happy to answer further questions in support of \whoforshort{}'s application by e-mail or over the phone.
+
+Sincerely, (?signature at the end)
+
+
+\vfill
+
+\noindent\textbf{Computer Science Department}\\
+Signature\\
+Contact
+
+\end{document}
