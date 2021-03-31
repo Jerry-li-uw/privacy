@@ -23,7 +23,9 @@ $C=\text{average of norms of previous epoch}$
 
 #### AdaClip on normal MNIST 
 
-$\epsilon = 1, \sigma=10^{-5}, 100 neurals$
+$\epsilon = 1, \sigma=10^{-5}$ 100 neurals
+
+y-axis: Arcuracy
 
 DPSGD
 
@@ -35,6 +37,17 @@ AdaClip
 
 (no much difference)
 
-#### Next
+#### AdaClip on imbalanced MNIST 
 
-- AdaClip on Census
+
+y-axis: AUC
+
+![1](ada_mnist_imbalanced.png)
+
+
+
+#### Next 
+
+implement https://arxiv.org/pdf/1905.03871.pdf
+
+AdaClip on Census
